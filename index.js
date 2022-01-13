@@ -2,5 +2,6 @@ const scuberHeadquarters = 42;
 
 // Returns a distance in blocks
 function distanceFromHqInBlocks(pickUpLocation) {
-    return pickUpLocation - scuberHeadquarters;
+    const distanceInBlocks = pickUpLocation > scuberHeadquarters ? pickUpLocation - scuberHeadquarters : scuberHeadquarters - pickUpLocation;
+    return distanceInBlocks;
 }
