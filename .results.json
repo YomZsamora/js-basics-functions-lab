@@ -5,9 +5,9 @@
     "passes": 6,
     "pending": 0,
     "failures": 7,
-    "start": "2022-01-13T18:33:12.034Z",
-    "end": "2022-01-13T18:33:12.850Z",
-    "duration": 816
+    "start": "2022-01-13T18:39:12.969Z",
+    "end": "2022-01-13T18:39:13.901Z",
+    "duration": 932
   },
   "tests": [
     {
@@ -27,14 +27,14 @@
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,18 +48,20 @@
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:32:7)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "distanceTravelledInFeet is not defined"
+        "message": "expected undefined to equal 1320",
+        "showDiff": true,
+        "expected": 1320,
+        "stack": "AssertionError: expected undefined to equal 1320\n    at Context.<anonymous> (test/indexTest.js:32:50)\n    at processImmediate (node:internal/timers:463:21)"
       }
     },
     {
@@ -68,8 +70,10 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:36:7)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "distanceTravelledInFeet is not defined"
+        "message": "expected undefined to equal 2640",
+        "showDiff": true,
+        "expected": 2640,
+        "stack": "AssertionError: expected undefined to equal 2640\n    at Context.<anonymous> (test/indexTest.js:36:50)\n    at processImmediate (node:internal/timers:463:21)"
       }
     },
     {
@@ -78,8 +82,10 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:40:7)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "distanceTravelledInFeet is not defined"
+        "message": "expected undefined to equal 1584",
+        "showDiff": true,
+        "expected": 1584,
+        "stack": "AssertionError: expected undefined to equal 1584\n    at Context.<anonymous> (test/indexTest.js:40:50)\n    at processImmediate (node:internal/timers:463:21)"
       }
     },
     {
@@ -115,7 +121,7 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:59:7)\n    at processImmediate (node:internal/timers:463:21)",
@@ -128,11 +134,13 @@
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:32:7)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "distanceTravelledInFeet is not defined"
+        "message": "expected undefined to equal 1320",
+        "showDiff": true,
+        "expected": 1320,
+        "stack": "AssertionError: expected undefined to equal 1320\n    at Context.<anonymous> (test/indexTest.js:32:50)\n    at processImmediate (node:internal/timers:463:21)"
       }
     },
     {
@@ -141,8 +149,10 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:36:7)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "distanceTravelledInFeet is not defined"
+        "message": "expected undefined to equal 2640",
+        "showDiff": true,
+        "expected": 2640,
+        "stack": "AssertionError: expected undefined to equal 2640\n    at Context.<anonymous> (test/indexTest.js:36:50)\n    at processImmediate (node:internal/timers:463:21)"
       }
     },
     {
@@ -151,8 +161,10 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:40:7)\n    at processImmediate (node:internal/timers:463:21)",
-        "message": "distanceTravelledInFeet is not defined"
+        "message": "expected undefined to equal 1584",
+        "showDiff": true,
+        "expected": 1584,
+        "stack": "AssertionError: expected undefined to equal 1584\n    at Context.<anonymous> (test/indexTest.js:40:50)\n    at processImmediate (node:internal/timers:463:21)"
       }
     },
     {
@@ -188,7 +200,7 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:59:7)\n    at processImmediate (node:internal/timers:463:21)",
@@ -214,14 +226,14 @@
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -235,7 +247,7 @@
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
