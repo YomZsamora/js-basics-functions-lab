@@ -12,6 +12,7 @@ function distanceFromHqInFeet(pickUpLocation) {
     return distanceInBlocks*264;
 }
 
-function distanceTravelledInFeet() {
-
+function distanceTravelledInFeet(startingBlock, endingBlock) {
+    let distanceTravelled = endingBlock > startingBlock ? (endingBlock - startingBlock)*264 : (startingBlock - endingBlock)*264;
+    return distanceTravelled;
 }
